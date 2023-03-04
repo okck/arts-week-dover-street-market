@@ -1,0 +1,1382 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  font-family: 'Archivo Black', sans-serif;
+ /* font-family: 'Archivo', sans-serif; */
+  color: black;
+  text-transform: uppercase;
+}
+.container {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  /* background: red; */
+  width: 90%;
+  height: 90%;
+  /* padding: 5%; */
+  /* display: inline; */
+}
+
+/* text */
+h1, h2, h4 {
+  position: absolute;
+  margin: 0px;
+  font-weight: normal;
+}
+.arts-week {
+  top: 0%;
+  left: 1%;
+  letter-spacing: -.25rem;
+  font-size: 5.9rem;
+  transition: color 1s;
+}
+.free-food {
+  top: 0%;
+  left: 1%;
+  letter-spacing: -.25rem;
+  font-size: 5.9rem;
+  transition: color 1s;
+  display: none;
+}
+.woo-woo {
+  top: 0%;
+  left: 1%;
+  letter-spacing: -.25rem;
+  font-size: 5.9rem;
+  transition: color 1s;
+  display: none;
+}
+.open-house {
+  bottom: 0%;
+  left: 1%;
+  letter-spacing: -.375rem;
+  font-size: 5.9rem;
+  transition: color 1s;
+}
+.and-drinks {
+  bottom: 0%;
+  left: 1%;
+  letter-spacing: -.375rem;
+  font-size: 5.9rem;
+  transition: color 1s;
+  display: none;
+}
+.woot-woot {
+  bottom: 0%;
+  left: 1%;
+  letter-spacing: -.375rem;
+  font-size: 5.9rem;
+  transition: color 1s;
+  display: none;
+}
+.subhead {
+  top: 2%;
+  left: 57%;
+  font-size: 2.25rem;
+  line-height: 2rem;
+  letter-spacing: -.05rem;
+  transition: color 1s;
+}
+.date {
+  bottom: 6%;
+  left: 57.5%;
+  font-size: 1.2rem;
+  line-height: 1.125rem;
+  letter-spacing: -.025rem;
+  font-family: 'Archivo', sans-serif;
+  transition: color 1s;
+}
+.address {
+  bottom: 6%;
+  left: 78%;
+  font-size: 1.2rem;
+  line-height: 1.125rem;
+  letter-spacing: -.025rem;
+  font-family: 'Archivo', sans-serif;
+  transition: color 1s;
+}
+
+/* circles */
+.circle {
+  /* position: fixed; */
+  position: absolute;
+  background: black;
+  border-radius: 50%;
+}
+.empty {
+  transition: 1s;
+}
+
+.empty1 {
+  top: 53.625%;
+  left: 89.75%;
+  width: calc(9.625*8px);
+  height: calc(9.625*8px);
+}
+.empty2 {
+  top: 15.875%;
+  left: 49.417%;
+  width: calc(10.375*8px);
+  height: calc(10.375*8px);
+}
+.empty3 {
+  top: 17.25%;
+  left: 9.25%;
+  width: calc(8.75*8px);
+  height: calc(8.75*8px);
+}
+.empty4 {
+  top: 19.5%;
+  left: .917%;
+  width: calc(10.875*8px);
+  height: calc(10.875*8px);
+}
+.empty5 {
+  top: 71.375%;
+  left: 1.25%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty6 {
+  top: 69%;
+  left: 76%;
+  width: calc(7.125*8px);
+  height: calc(7.125*8px);
+}
+.empty7 {
+  top: 62.5%;
+  left: 65.417%;
+  width: calc(8.375*8px);
+  height: calc(8.375*8px);
+}
+.empty8 {
+  top: 62.5%;
+  left: 47.417%;
+  width: calc(6.875*8px);
+  height: calc(6.875*8px);
+}
+.empty9 {
+  top: 26.125%;
+  left: 7.667%;
+  width: calc(8.125*8px);
+  height: calc(8.125*8px);
+}
+.empty10 {
+  top: 29%;
+  left: 63.667%;
+  width: calc(7.25*8px);
+  height: calc(7.25*8px);
+}
+.empty11 {
+  top: 19.75%;
+  left: 81.333%;
+  width: calc(9.625*8px);
+  height: calc(9.625*8px);
+}
+.empty12 {
+  top: 29.875%;
+  left: 54.583%;
+  width: calc(14*8px);
+  height: calc(14*8px);
+}
+.empty13 {
+  top: 44%;
+  left: 68.417%;
+  width: calc(11.75*8px);
+  height: calc(11.75*8px);
+}
+.empty14 {
+  top: 55.75%;
+  left: 67.833%;
+  width: calc(7*8px);
+  height: calc(7*8px);
+}
+.empty15 {
+  top: 75.25%;
+  left: 71.833%;
+  width: calc(5.75*8px);
+  height: calc(5.75*8px);
+}
+.empty16 {
+  top: 72.5%;
+  left: 67.917%;
+  width: calc(5.75*8px);
+  height: calc(5.75*8px);
+}
+.empty17 {
+  top: 47.25%;
+  left: 86%;
+  width: calc(7.75*8px);
+  height: calc(7.75*8px);
+}
+.empty18 {
+  top: 70.5%;
+  left: 90.583%;
+  width: calc(8.5*8px);
+  height: calc(8.5*8px);
+}
+.empty19 {
+  top: 33.125%;
+  left: 89.917%;
+  width: calc(8.125*8px);
+  height: calc(8.125*8px);
+}
+.empty20 {
+  top: 64.125%;
+  left: 1.833%;
+  width: calc(7.125*8px);
+  height: calc(7.125*8px);
+}
+.empty21 {
+  top: 27%;
+  left: 13.167%;
+  width: calc(11.625*8px);
+  height: calc(11.625*8px);
+}
+.empty22 {
+  top: 61.375%;
+  left: 85.5%;
+  width: calc(8.375*8px);
+  height: calc(8.375*8px);
+}
+.empty23 {
+  top: 34.5%;
+  left: 47.417%;
+  width: calc(10.25*8px);
+  height: calc(10.25*8px);
+}
+.empty24 {
+  top: 33%;
+  left: 28.25%;
+  width: calc(11.625*8px);
+  height: calc(11.625*8px);
+}
+.empty25 {
+  top: 16.625%;
+  left: 66.583%;
+  width: calc(14.25*8px);
+  height: calc(14.25*8px);
+}
+.empty26 {
+  top: 21.625%;
+  left: 40.5%;
+  width: calc(14.75*8px);
+  height: calc(14.75*8px);
+}
+.empty27 {
+  top: 63.25%;
+  left: 61.583%;
+  width: calc(5.25*8px);
+  height: calc(5.25*8px);
+}
+.empty28 {
+  top: 36.125%;
+  left: 64.417%;
+  width: calc(9.75*8px);
+  height: calc(9.75*8px);
+}
+.empty29 {
+  top: 37.875%;
+  left: 81.5%;
+  width: calc(10.625*8px);
+  height: calc(10.625*8px);
+}
+.empty30 {
+  top: 23.625%;
+  left: 76%;
+  width: calc(7.625*8px);
+  height: calc(7.625*8px);
+}
+.empty31 {
+  top: 12.125%;
+  left: 75.667%;
+  width: calc(10.125*8px);
+  height: calc(10.125*8px);
+}
+.empty32 {
+  top: 16.75%;
+  left: 57%;
+  width: calc(6.375*8px);
+  height: calc(6.375*8px);
+}
+.empty33 {
+  top: 36.875%;
+  left: 41.75%;
+  width: calc(7.875*8px);
+  height: calc(7.875*8px);
+}
+.empty34 {
+  top: 45.25%;
+  left: 76.583%;
+  width: calc(9.5*8px);
+  height: calc(9.5*8px);
+}
+.empty35 {
+  top: 24.5%;
+  left: 33.25%;
+  width: calc(10.25*8px);
+  height: calc(10.25*8px);
+}
+.empty36 {
+  top: 69.25%;
+  left: 14.5%;
+  width: calc(9.75*8px);
+  height: calc(9.75*8px);
+}
+.empty37 {
+  top: 68.75%;
+  left: 4.5%;
+  width: calc(14.625*8px);
+  height: calc(14.625*8px);
+}
+.empty38 {
+  top: 69.5%;
+  left: 21.25%;
+  width: calc(6.5*8px);
+  height: calc(6.5*8px);
+}
+.empty39 {
+  top: 39.25%;
+  left: 14%;
+  width: calc(6.125*8px);
+  height: calc(6.125*8px);
+}
+.empty40 {
+  top: 64.125%;
+  left: 91.417%;
+  width: calc(5.75*8px);
+  height: calc(5.75*8px);
+}
+.empty41 {
+  top: 44.5%;
+  left: 10.5%;
+  width: calc(6.75*8px);
+  height: calc(6.75*8px);
+}
+.empty42 {
+  top: 47.125%;
+  left: 3.917%;
+  width: calc(6.75*8px);
+  height: calc(6.75*8px);
+}
+.empty43 {
+  top: 45.75%;
+  left: 15.25%;
+  width: calc(8.5*8px);
+  height: calc(8.5*8px);
+}
+.empty44 {
+  top: 38.625%;
+  left: 0.333%;
+  width: calc(8.5*8px);
+  height: calc(8.5*8px);
+}
+.empty45 {
+  top: 77.25%;
+  left: 43.167%;
+  width: calc(6*8px);
+  height: calc(6*8px);
+}
+.empty46 {
+  top: 61.5%;
+  left: 52.417%;
+  width: calc(13.25*8px);
+  height: calc(13.25*8px);
+}
+.empty47 {
+  top: 74.125%;
+  left: 24.667%;
+  width: calc(10.625*8px);
+  height: calc(10.625*8px);
+}
+.empty48 {
+  top: 54.25%;
+  left: 40.583%;
+  width: calc(11.5*8px);
+  height: calc(11.5*8px);
+}
+.empty49 {
+  top: 69.625%;
+  left: 60%;
+  width: calc(11.625*8px);
+  height: calc(11.625*8px);
+}
+.empty50 {
+  top: 44.375%;
+  left: 44.167%;
+  width: calc(10.5*8px);
+  height: calc(10.5*8px);
+}
+.empty51 {
+  top: 43.875%;
+  left: 51.583%;
+  width: calc(7.625*8px);
+  height: calc(7.625*8px);
+}
+.empty52 {
+  top: 76.5%;
+  left: 56.25%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty53 {
+  top: 31.375%;
+  left: 2.417%;
+  width: calc(6.125*8px);
+  height: calc(6.125*8px);
+}
+.empty54 {
+  top: 51.25%;
+  left: 7.583%;
+  width: calc(10.25*8px);
+  height: calc(10.25*8px);
+}
+.empty55 {
+  top: 71.75%;
+  left: 31.167%;
+  width: calc(5.125*8px);
+  height: calc(5.125*8px);
+}
+.empty56 {
+  top: 64.375%;
+  left: 31.667%;
+  width: calc(6.5*8px);
+  height: calc(6.5*8px);
+}
+.empty57 {
+  top: 64.125%;
+  left: 16.25%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty58 {
+  top: 57.375%;
+  left: 36.333%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty59 {
+  top: 35.25%;
+  left: 37.083%;
+  width: calc(6.125*8px);
+  height: calc(6.125*8px);
+}
+.empty60 {
+  top: 21.125%;
+  left: 15.417%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty61 {
+  top: 51.125%;
+  left: 0.667%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty62 {
+  top: 63.25%;
+  left: 6.833%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty63 {
+  top: 77.25%;
+  left: 20.75%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty64 {
+  top: 13.875%;
+  left: 83.667%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty65 {
+  top: 27.875%;
+  left: 95.833%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty66 {
+  top: 31.25%;
+  left: 69.167%;
+  width: calc(5.75*8px);
+  height: calc(5.75*8px);
+}
+.empty67 {
+  top: 12.125%;
+  left: 63.917%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty68 {
+  top: 24.25%;
+  left: 55.583%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty69 {
+  top: 19.625%;
+  left: 38.25%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty70 {
+  top: 29.75%;
+  left: 81.75%;
+  width: calc(7.5*8px);
+  height: calc(7.5*8px);
+}
+.empty71 {
+  top: 57.25%;
+  left: 82.167%;
+  width: calc(6.375*8px);
+  height: calc(6.375*8px);
+}
+.empty72 {
+  top: 61.125%;
+  left: 71.833%;
+  width: calc(5.875*8px);
+  height: calc(5.875*8px);
+}
+.empty73 {
+  top: 51.125%;
+  left: 82.333%;
+  width: calc(5.875*8px);
+  height: calc(5.875*8px);
+}
+.empty74 {
+  top: 55.25%;
+  left: 86.25%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty75 {
+  top: 20.75%;
+  left: 60.5%;
+  width: calc(8.625*8px);
+  height: calc(8.625*8px);
+}
+.empty76 {
+  top: 55.75%;
+  left: 73%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty77 {
+  top: 63.375%;
+  left: 76.083%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.empty78 {
+  top: 44.5%;
+  left: 27%;
+  width: calc(9.25*8px);
+  height: calc(9.25*8px);
+}
+.empty79 {
+  top: 16.875%;
+  left: 88.333%;
+  width: calc(12*8px);
+  height: calc(12*8px);
+}
+.empty80 {
+  top: 41.375%;
+  left: 91%;
+  width: calc(12.25*8px);
+  height: calc(12.25*8px);
+}
+.empty81 {
+  top: 70.625%;
+  left: 47%;
+  width: calc(10.375*8px);
+  height: calc(10.375*8px);
+}
+.empty82 {
+  top: 52.375%;
+  left: 49.417%;
+  width: calc(10*8px);
+  height: calc(10*8px);
+}
+.empty83 {
+  top: 67.375%;
+  left: 71%;
+  width: calc(7.25*8px);
+  height: calc(7.25*8px);
+}
+.empty84 {
+  top: 63.125%;
+  left: 79.417%;
+  width: calc(7.25*8px);
+  height: calc(7.25*8px);
+}
+.empty85 {
+  top: 66%;
+  left: 26.417%;
+  width: calc(7.875*8px);
+  height: calc(7.875*8px);
+}
+.empty86 {
+  top: 15.375%;
+  left: 33.083%;
+  width: calc(6.75*8px);
+  height: calc(6.75*8px);
+}
+.empty87 {
+  top: 66.375%;
+  left: 41.25%;
+  width: calc(9.125*8px);
+  height: calc(9.125*8px);
+}
+.empty88 {
+  top: 78.25%;
+  left: 32.167%;
+  width: calc(7.5*8px);
+  height: calc(7.5*8px);
+}
+.empty89 {
+  top: 62.75%;
+  left: 36.333%;
+  width: calc(7.75*8px);
+  height: calc(7.75*8px);
+}
+.empty90 {
+  top: 79.125%;
+  left: 95.667%;
+  width: calc(4.25*8px);
+  height: calc(4.25*8px);
+}
+.empty91 {
+  top: 61.75%;
+  left: 95.667%;
+  width: calc(4.25*8px);
+  height: calc(4.25*8px);
+}
+.empty92 {
+  top: 66.625%;
+  left: 95.333%;
+  width: calc(5.875*8px);
+  height: calc(5.875*8px);
+}
+.empty93 {
+  top: 60%;
+  left: 24.833%;
+  width: calc(6.25*8px);
+  height: calc(6.25*8px);
+}
+.empty94 {
+  top: 61.625%;
+  left: 19.667%;
+  width: calc(7.5*8px);
+  height: calc(7.5*8px);
+}
+.empty95 {
+  top: 48.75%;
+  left: 21%;
+  width: calc(7.125*8px);
+  height: calc(7.125*8px);
+}
+.empty96 {
+  top: 53.375%;
+  left: 25.167%;
+  width: calc(6.25*8px);
+  height: calc(6.25*8px);
+}
+.empty97 {
+  top: 34.625%;
+  left: 19.083%;
+  width: calc(13.625*8px);
+  height: calc(13.625*8px);
+}
+.empty98 {
+  top: 54.125%;
+  left: 29.417%;
+  width: calc(10*8px);
+  height: calc(10*8px);
+}
+.empty99 {
+  top: 54.625%;
+  left: 14.5%;
+  width: calc(9.375*8px);
+  height: calc(9.375*8px);
+}
+.empty100 {
+  top: 55.25%;
+  left: 2.083%;
+  width: calc(8.25*8px);
+  height: calc(8.25*8px);
+}
+
+/* brands */
+.brand {
+  font-size: 0;
+  border-radius: 50%;
+  /* transition: 100ms; */
+  transition: 75ms;
+  /* transition: 50ms; */
+}
+.brand:hover {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  width: calc(44*8px);
+  height: calc(44*8px);
+  z-index: 10;
+}
+.eye {
+  width: calc(2*8px);
+  height: calc(2*8px);
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  transition: 50ms;
+}
+.eye-container {
+  transform: rotate(180deg);
+}
+h3 {
+  letter-spacing: -.02%;
+  position: absolute;
+  /* top: 25%; */
+  top: 15%;
+}
+
+.brand1, .eye1-container {
+  top: 31.375%;
+  left: 72.583%;
+  width: calc(14*8px);
+  height: calc(14*8px);
+}
+.eye1 {
+  top: 60%;
+  right: 20%;
+}
+.brand1:hover {
+  top: calc(31.375% - (22*8px - 7*8px));
+  left: calc(72.583% - (22*8px - 7*8px));
+}
+.brand1:hover .eye1 {
+  opacity: 0;
+}
+
+.brand2, .eye2-container {
+  top: 28%;
+  left: 87.083%;
+  width: calc(6.25*8px);
+  height: calc(6.25*8px);
+}
+.eye2 {
+  top: 47%;
+  right: 50%;
+}
+.brand2:hover {
+  top: calc(28% - (20*8px - 3.125*8px));
+  left: calc(87.083% - (20*8px - 3.125*8px));
+  width: calc(40*8px);
+  height: calc(40*8px);
+}
+.brand2:hover .eye2 {
+  opacity: 0;
+}
+
+.brand3, .eye3-container {
+  top: 27.125%;
+  left: 50.583%;
+  width: calc(7.25*8px);
+  height: calc(7.25*8px);
+}
+.eye3 {
+  top: 47%;
+  right: 50%;
+}
+.brand3:hover {
+  top: calc(27.125% - (22*8px - 3.625*8px));
+  left: calc(50.583% - (22*8px - 3.625*8px));
+}
+.brand3:hover h3 {
+  top: 25%;
+  left: 5%;
+}
+.brand3:hover .eye3 {
+  opacity: 0;
+}
+
+.brand4, .eye4-container {
+  top: 55.25%;
+  left: 76.583%;
+  width: calc(8.125*8px);
+  height: calc(8.125*8px);
+}
+.eye4 {
+  top: 60%;
+  right: 40%;
+}
+.brand4:hover {
+  top: calc(55.25% - (20*8px - 4.0625*8px));
+  left: calc(76.583% - (20*8px - 4.0625*8px));
+  width: calc(40*8px);
+  height: calc(40*8px);
+}
+.brand4:hover h3 {
+  top: 15%;
+  left: 10%;
+}
+.brand4:hover .eye4 {
+  opacity: 0;
+}
+
+.brand5, .eye5-container {
+  top: 14%;
+  left: 19.583%;
+  width: calc(20.25*8px);
+  height: calc(20.25*8px);
+}
+.eye5 {
+  top: 70%;
+  right: 20%;
+}
+.brand5:hover {
+  top: calc(14% - (22*8px - 10.125*8px));
+  left: calc(19.583% - (22*8px - 10.125*8px));
+}
+.brand5:hover .eye5 {
+  opacity: 0;
+}
+
+.brand6, .eye6-container {
+  top: 41.875%;
+  left: 33.583%;
+  width: calc(14.75*8px);
+  height: calc(14.75*8px);
+}
+.eye6 {
+  top: 60%;
+  right: 70%;
+}
+.brand6:hover {
+  top: calc(41.875% - (22*8px - 7.375*8px));
+  left: calc(33.583% - (22*8px - 7.375*8px));
+  font-size: 2.25rem;
+}
+.brand6:hover .eye6 {
+  opacity: 0;
+}
+
+.brand7, .eye7-container {
+  top: 44%;
+  left: 56.167%;
+  width: calc(18.5*8px);
+  height: calc(18.5*8px);
+}
+.eye7 {
+  top: 65%;
+  right: 17%;
+}
+.brand7:hover {
+  top: calc(44% - (22*8px - 9.25*8px));
+  left: calc(56.167% - (22*8px - 9.25*8px));
+  font-size: 2.25rem;
+}
+.brand7:hover .eye7 {
+  opacity: 0;
+}
+
+.brand8, .eye8-container {
+  top: 69.5%;
+  left: 81%;
+  width: calc(13.75*8px);
+  height: calc(13.75*8px);
+}
+.eye8 {
+  top: 29%;
+  right: 17%;
+}
+.brand8:hover {
+  top: calc(69.5% - (22*8px - 6.875*8px));
+  left: calc(81% - (22*8px - 6.875*8px));
+  font-size: 2.25rem;
+}
+.brand8:hover .eye8 {
+  opacity: 0;
+}
+
+.brand9, .eye9-container {
+  top: 56.125%;
+  left: 21.25%;
+  width: calc(4.75*8px);
+  height: calc(4.75*8px);
+}
+.eye9 {
+  top: 37%;
+  right: 25%;
+}
+.brand9:hover {
+  top: calc(56.125% - (22*8px - 2.375*8px));
+  left: calc(21.25% - (22*8px - 2.375*8px));
+}
+.brand9:hover h3 {
+  top: 25%;
+  left: 10%;
+}
+.brand9:hover .eye9 {
+  opacity: 0;
+}
+
+.brand10, .eye10-container {
+  top: 70.875%;
+  left: 35.167%;
+  width: calc(8.5*8px);
+  height: calc(8.5*8px);
+}
+.eye10 {
+  top: 52%;
+  right: 56%;
+}
+.brand10:hover {
+  top: calc(70.875% - (22*8px - 4.25*8px));
+  left: calc(35.167% - (22*8px - 4.25*8px));
+}
+.brand10:hover .eye10 {
+  opacity: 0;
+}
+
+.brand11, .eye11-container {
+  top: 34.5%;
+  left: 7%;
+  width: calc(10.25*8px);
+  height: calc(10.25*8px);
+}
+.eye11 {
+  top: 60%;
+  right: 60%;
+}
+.brand11:hover {
+  top: calc(34.5% - (20*8px - 5.125*8px));
+  left: calc(7% - (20*8px - 5.125*8px));
+  width: calc(40*8px);
+  height: calc(40*8px);
+}
+.brand11:hover h3 {
+  top: 10%;
+  left: 26%;
+}
+.brand11:hover .eye11 {
+  opacity: 0;
+}
+
+.brand12, .eye12-container {
+  top: 61.375%;
+  left: 10.417%;
+  width: calc(8.125*8px);
+  height: calc(8.125*8px);
+}
+.eye12 {
+  top: 25%;
+  right: 25%;
+}
+.brand12:hover {
+  top: calc(61.375% - (22*8px - 4.0625*8px));
+  left: calc(10.417% - (22*8px - 4.0625*8px));
+}
+.brand12:hover .eye12 {
+  opacity: 0;
+}
+
+/* interactions */
+
+/* backgrounds for color change */
+.bg-color {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  transition: 1s;
+  z-index: -1;
+}
+
+/* background hover */
+.top-one {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+  /* background: red; */
+}
+.top-one:hover~.group1 {
+  transform: scale(50%);
+}
+.top-two {
+  position: absolute;
+  left: 20%;
+  top: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+  /* background: blue;   */
+}
+.top-two:hover~.group2 {
+  transform: scale(50%);
+}
+.top-three {
+  position: absolute;
+  left: 40%;
+  top: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+}
+.top-three:hover~.group3 {
+  transform: scale(50%);
+}
+.top-four {
+  position: absolute;
+  left: 60%;
+  top: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+  /* background: yellow; */
+}
+.top-four:hover~.group4 {
+  transform: scale(50%);
+}
+.top-five {
+  position: absolute;
+  left: 80%;
+  top: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+}
+.top-five:hover~.group5 {
+  transform: scale(50%);
+}
+
+.btm-one {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+}
+.btm-one:hover~.group1 {
+  transform: scale(50%);
+}
+.btm-one:hover~.arts-week {
+  display: none;
+}
+.btm-one:hover~.woo-woo {
+  display: block;
+}
+.btm-two {
+  position: fixed;
+  left: 20%;
+  bottom: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+}
+.btm-two:hover~.group2 {
+  transform: scale(50%);
+}
+.btm-two:hover~.open-house {
+  display: none;
+}
+.btm-two:hover~.woot-woot {
+  display: block;
+}
+.btm-three {
+  position: fixed;
+  left: 40%;
+  bottom: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+}
+.btm-three:hover~.group3 {
+  transform: scale(50%);
+}
+.btm-three:hover~.arts-week {
+  display: none;
+}
+.btm-three:hover~.woo-woo {
+  display: block;
+}
+.btm-four {
+  position: fixed;
+  left: 60%;
+  bottom: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+}
+.btm-four:hover~.group4 {
+  transform: scale(50%);
+}
+.btm-four:hover~.open-house {
+  display: none;
+}
+.btm-four:hover~.woot-woot {
+  display: block;
+}
+.btm-five {
+  position: fixed;
+  left: 80%;
+  bottom: 0;
+  width: 20%;
+  height: 25%;
+  display: transparent;
+  transition: 100ms;
+}
+.btm-five:hover~.group5 {
+  transform: scale(50%);
+}
+.btm-five:hover~.arts-week {
+  display: none;
+}
+.btm-five:hover~.woo-woo {
+  display: block;
+}
+
+/* background color change 1 */
+.bg-1 {
+  position: absolute;
+  top: 27%;
+  left: 13.167%;
+  width: 11.625vmin;
+  height: 11.625vmin;
+  transition: 100ms;
+  z-index: 1;
+  /* background: purple; */
+}
+.bg-1:hover~.empty {
+  background: rgb(255, 123, 0);
+  /* display: transparent; */
+  /* transition: 100ms; */
+}
+.bg-1:hover~.bg-color {
+  background: #ff0066;
+  transition: 100ms;
+}
+.bg-2 {
+  position: absolute;
+  top: 41.375%;
+  left: 91%;
+  width: 12.25vmin;
+  height: 12.25vmin;
+  transition: 100ms;
+  z-index: 1;
+  /* background: green; */
+}
+/* .bg-2:hover~.empty {
+  background: rgb(238, 255, 0);
+} */
+.bg-2:hover~.group1,.bg-2:hover~.group2,.bg-2:hover~.group4 {
+  background: rgb(238, 255, 0);
+  /* transition: 100ms; */
+}
+.bg-2:hover~.bg-color {
+  background: rgb(184, 255, 71);
+  transition: 100ms;
+}
+
+.group1:hover {
+  background: #ff0066;
+  transition: 100ms;
+  transform: scale(110%);
+}
+.group2:hover {
+  background: rgb(255, 123, 0);
+  transition: 100ms;
+  transform: scale(110%);
+}
+.group3:hover {
+  background: rgb(0, 204, 255);
+  transition: 100ms;
+  transform: scale(110%);
+}
+.group4:hover {
+  background: rgb(238, 255, 0);
+  transition: 100ms;
+  transform: scale(110%);
+}
+.group5:hover {
+  background: rgb(184, 255, 71);
+  transition: 100ms;
+  transform: scale(110%);
+}
+
+/* squares */
+.squares {
+  top: 37.875%;
+  left: 81.5%;
+  width: 10.625vmin;
+  height: 10.625vmin;
+  opacity: 0;
+  z-index: 1;
+}
+.squares:hover~.empty {
+  border-radius: 0;
+  transition: 400ms;
+}
+.squares:hover~.brand {
+  border-radius: 0;
+  transition: 400ms;
+}
+/* diamonds */
+.diamonds {
+  top: 44.5%;
+  left: 10.5%;
+  width: 6.75vmin;
+  height: 6.75vmin;
+  opacity: 0;
+  z-index: 1;
+}
+.diamonds:hover~.empty {
+  border-radius: 0;
+  transition: 250ms;
+  transform: rotate(45deg);
+}
+.diamonds:hover~.brand {
+  border-radius: 0;
+  transition: 250ms;
+  transform: rotate(45deg) scale(70%);
+}
+.diamonds:hover~.arts-week, .diamonds:hover~.open-house {
+  font-style:italic;
+  transition: 500ms;
+  /* transform: skewX(-25deg); */
+}
+/* little squares */
+.little-squares {
+  top: 27.875%;
+  left: 95.833%;
+  width: 4.75vmin;
+  height: 4.75vmin;
+  opacity: 0;
+  z-index: 1;
+  background: red;
+}
+.little-squares:hover~.empty {
+  border-radius: 0;
+  transition: 400ms;
+  transform: scale(50%);
+}
+.little-squares:hover~.brand {
+  border-radius: 0;
+  transition: 400ms;
+  transform: scale(0%);
+  /* transform: scale(50%); */
+}
+.little-squares:hover~.bg-color {
+  background: rgb(238, 255, 0);
+  transition: 400ms;
+}
+/* little circles */
+.little-circles {
+  top: 69.625%;
+  left: 60%;
+  width: 11.625vmin;
+  height: 11.625vmin;
+  opacity: 0;
+  z-index: 1;
+}
+.little-circles:hover~.empty {
+  transition: 1s;
+  transform: scale(50%);
+}
+.little-circles:hover~.brand {
+  transition: 1s;
+  transform: scale(50%);
+}
+
+/* logo */
+.DSM-logo-button {
+  position: absolute;
+  top: 79.125%;
+  left: 95.667%;
+  width: calc(4.2vmin);
+  height: calc(4.2vmin);
+  border-radius: 50%;
+  z-index: 10;
+}
+.DSM-logo-button:hover~.group1, .DSM-logo-button:hover~.group2, .DSM-logo-button:hover~.group3 {
+  transition: 1s;
+  transform: scale(0%);
+}
+.DSM-logo-button:hover~.group4, .DSM-logo-button:hover~.group5 {
+  transition: 1s;
+  transform: scale(0%);
+}
+.DSM-logo-button:hover~.brand {
+  transform: scale(0%);
+  transition: 750ms 750ms;
+}
+.DSM-logo1 {
+  position: absolute;
+  left: 65%;
+  top: 49%;
+  width: 18vmin;
+  height: 22vmin;
+  font-size: 0%;
+  overflow: hidden;
+  transition: 500ms;
+  transform: scale(0%);
+}
+.DSM-logo2 {
+  position: absolute;
+  left: 42%;
+  top: 21%;
+  width: 18vmin;
+  height: 24vmin;
+  font-size: 0%;
+  overflow: hidden;
+  transition: 500ms;
+  transform: scale(0%);
+}
+.DSM-logo3 {
+  position: absolute;
+  left: 21%;
+  top: 49%;
+  width: 18vmin;
+  height: 24vmin;
+  font-size: 0%;
+  overflow: hidden;
+  transition: 500ms;
+  transform: scale(0%);
+}
+
+.DSM-logo-button:hover~.DSM-logo1 {
+transform: scale(100%);
+  transition: 750ms 1.5s;
+}
+.DSM-logo-button:hover~.DSM-logo2 {
+transform: scale(100%);
+  transition: 750ms 1.8s;
+}
+.DSM-logo-button:hover~.DSM-logo3 {
+transform: scale(100%);
+  transition: 750ms 2.2s;
+}
+
+/* overrides */
+.empty67:hover {
+  background: black;
+}
